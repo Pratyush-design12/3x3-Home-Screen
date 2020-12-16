@@ -1,32 +1,34 @@
+// Global Variables
 float buttonX1, buttonY1, buttonWidth1, buttonHeight1;
 float buttonX2, buttonY2, buttonWidth2, buttonHeight2;
-int TriangleX1, TriangleY1, TriangleX2, TriangleY2, TriangleX3, TriangleY3;
-float rect2DisplayX, rect2DisplayY, rect2DisplayWidth, rect2DisplayHeight, LineX1, LineY1, LineX2, LineY2;
-Boolean rectOn = false, rectOn2=false;
-color black = #000000, white = #FFFFFF, blue = #0D00FF, red = #FF0000;
+float rectDisplayX, rectDisplayY, rectDisplayWidth, rectDisplayHeight;
+float circleX, circleY, circleWidth, circleHeight;
+Boolean rectOn=false, circleOn=false;
+color black=#000000;
 
 void setup() {
-  fullScreen();
-  population();
-}
+  size(500, 400); //fullScreen(), displayWidth & displayHeight, leads to ScreenChecker()
+  population(); //illustrates multiple lines of code
+  textSetup();
+}//End setup()
 
 void draw() {
-  background(red);
+  background(black);
   rect(buttonX1, buttonY1, buttonWidth1, buttonHeight1);
+  textDraw1();
   rect(buttonX2, buttonY2, buttonWidth2, buttonHeight2);
-  strokeWeight(20);
-  fill(blue);
-  if (rectOn == true && rectOn2 == false) triangle(TriangleX1, TriangleY1, TriangleX2, TriangleY2, TriangleX3, TriangleY3);
-  strokeWeight(70);
-  if (rectOn == false && rectOn2 == true) line(LineX1, LineY1, LineX2, LineY2);
-}
+  textDraw2();
+  if (rectOn == true && circleOn == false) rect(rectDisplayX, rectDisplayY, rectDisplayWidth, rectDisplayHeight);
+  if (rectOn == false && circleOn == true) ellipse(circleX, circleY, circleWidth, circleHeight);
+}//End draw()
 
 void mousePressed() {
-  strokeWeight(1);
+  // Booleans all off immeidately
   rectOn = false;
-  rectOn2 = false;
-  println ("Before", rectOn, rectOn2);
+  circleOn = false;
+  println ("Before", rectOn, circleOn);
+  //
   if (mouseX>buttonX1 && mouseX<buttonX1+buttonWidth1 && mouseY>buttonY1 && mouseY<buttonY1+buttonHeight1 ) rectOn = true;
-  if (mouseX>buttonX2 && mouseX<buttonX2+buttonWidth2 && mouseY>buttonY2 && mouseY<buttonY2+buttonHeight2 ) rectOn2 = true;
-  println ("After", rectOn, rectOn2);
-}
+  if (mouseX>buttonX2 && mouseX<buttonX2+buttonWidth2 && mouseY>buttonY2 && mouseY<buttonY2+buttonHeight2 ) circleOn = true;
+  println ("After", rectOn, circleOn);
+}//End mousePressed()
