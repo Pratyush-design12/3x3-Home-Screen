@@ -3,10 +3,6 @@ void population() {
   buttonY1 = height*3/4;
   buttonWidth1 = width*1/5;
   buttonHeight1 = height*1/5;
-  buttonX2 = width*3/4;
-  buttonY2 = height*3/4;
-  buttonWidth2 = buttonWidth1;
-  buttonHeight2 = buttonHeight1;
   TriangleX1 = width/2;
   TriangleY1 = height*2/5;
   TriangleX2 = width*7/16;
