@@ -1,5 +1,5 @@
 //Global variables
-
+color circleRed = #FF0303,  circleblue = #0D00FF;
 color black = #000000, white = #FFFFFF, blue = #0D00FF, red = #FF0000, purple =#A65EF0; 
 float button1X, button1Y, button1Width, button1Height;
 float button2X, button2Y, button2Width, button2Height;
@@ -13,6 +13,10 @@ float pt13X, pt13Y, pt14X, pt14Y, pt15X, pt15Y, pt16X, pt16Y;
 float ptDiameter, rectWidth, rectHeight;
 int reset;
 
+//Background Sound
+import processing.sound.*;
+
+SoundFile soundfile;
 
 // Draw  
 
@@ -72,7 +76,6 @@ void draw() {
   rect(button5X, button5Y, button5Width, button5Height);
   fill(white);
   
-  //Background Sound
   
 }
 

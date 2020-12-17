@@ -1,7 +1,17 @@
 
 //Populating Variable
   void setup()  {
+ // Load a soundfile
+    soundfile = new SoundFile(this, "Sample.mp3");
     
+ // These methods return useful infos about the file
+  println("SFSampleRate= " + soundfile.sampleRate() + " Hz");
+  println("SFSamples= " + soundfile.frames() + " samples");
+  println("SFDuration= " + soundfile.duration() + " seconds");
+    
+ // Play the file in a loop
+    soundfile.loop();
+  
   button1X = width * ;
   button1Y = height * ;
   button1Width = width * ;
