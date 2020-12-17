@@ -11,6 +11,7 @@ float pt5X, pt5Y, pt6X, pt6Y, pt7X, pt7Y, pt8X, pt8Y;
 float pt9X, pt9Y, pt10X, pt10Y, pt11X, pt11Y, pt12X, pt12Y;
 float pt13X, pt13Y, pt14X, pt14Y, pt15X, pt15Y, pt16X, pt16Y;
 float ptDiameter, rectWidth, rectHeight;
+float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 int reset;
 
 //Background Sound
@@ -21,9 +22,11 @@ SoundFile soundfile;
 // Draw  
 
 void draw() {
-  //Display
-  fill(black);
+  
+  //Background color
   background(purple);
+  
+  fill(black);
   //Row 1
    rect(pt1X, pt1Y, rectWidth, rectHeight);
   rect(pt2X, pt2Y, rectWidth, rectHeight);
@@ -76,7 +79,20 @@ void draw() {
   rect(button5X, button5Y, button5Width, button5Height);
   fill(white);
   
-  
+  //Quit Button
+ 
+  if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) { 
+    buttonColour = circleRed;
+  } else { 
+    buttonColour = resetWhite;
+  } 
+  fill(buttonColour);
+  rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
+  textDraw();
+  fill(resetWhite);
+  //
 }
+
+
 
      
