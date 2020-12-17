@@ -1,28 +1,45 @@
+
 //Populating Variable
   void setup()  {
-    fullScreen();
-  button1X = width * 0/9;
-  button1Y = height * 1/9;
-  button1Width = width * 1/9;
-  button1Height = height * 1/9;
+    
+  button1X = width * ;
+  button1Y = height * ;
+  button1Width = width * ;
+  button1Height = height * ;
   //
-  button2X = width * 2/9;
-  button2Y = height * 1/9;
-  button2Width = width * 1/9;
-  button2Height = height * 1/9; 
+  button2X = width * ;
+  button2Y = height * ;
+  button2Width = width * ;
+  button2Height = height * 9; 
   //
-  button3X = width * 3/9;
-  button3Y = height * 1/9;
-  button3Width = width * 1/9;
-  button3Height = height * 1/9;
+  button3X = width * ;
+  button3Y = height * ;
+  button3Width = width * ;
+  button3Height = height * ;
   //
-  button4X = width * 5/9;
-  button4Y = height * 1/9;
-  button4Width = width * 1/9;
-  button4Height = height * 1/9;
+  button4X = width * ;
+  button4Y = height * ;
+  button4Width = width * ;
+  button4Height = height * ;
   //
-  button5X = width * 6/9;
-  button5Y = height * 1/9;
-  button5Width = width * 1/9;
-  button5Height = height * 1/9; 
+  button5X = width * ;
+  button5Y = height * ;
+  button5Width = width * ;
+  button5Height = height * ; 
+  //
+    
+  pt1X = pt5X = pt9X = pt13X = width * 0;
+  pt2X = pt6X = pt10X = pt14X = width * 1/3;
+  pt3X = pt7X = pt11X = pt15X = width * 2/3;
+  pt4X = pt8X = pt12X = pt16X = width * 3/3;
+  //
+  pt1Y = pt2Y = pt3Y = pt4Y = height * 0;
+  pt5Y = pt6Y = pt7Y = pt8Y = height * 1/3;
+  pt9Y = pt10Y = pt11Y = pt12Y = height * 2/3;
+  pt13Y = pt14Y = pt15Y = pt16Y = height * 3/3;
+  //
+  ptDiameter = width* 1 / 30;
+  rectWidth = width * 1 / 3;
+  rectHeight = height * 1 / 3;
+  
   }
