@@ -42,4 +42,24 @@
   rectWidth = width * 1 / 3;
   rectHeight = height * 1 / 3;
   
+  quitButtonX = width* ;
+  quitButtonY = height* ;
+  quitButtonWidth = width* ;
+  quitButtonHeight = height* ;
+  reset = 1;
+  
+  picImageWidthRatio1 = ; 
+  picImageHeightRatio1 = ;
+  picX1 = rectXPic1;
+  picY1 = rectYPic1;
+  picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
+  picHeight1 = picWidth1 * picImageHeightRatio1; 
+  
+  picImageWidthRatio2 = ; 
+  picImageHeightRatio2 = ;
+  picX2 = rectXPic2;
+  picY1 = rectYPic2;
+  picWidth2 = rectWidthPic2 * picImageWidthRatio2; 
+  picHeight2 = picWidth2 * picImageHeightRatio2; 
+  
   }
