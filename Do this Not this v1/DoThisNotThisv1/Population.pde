@@ -14,8 +14,8 @@ void population() {
   TriangleY2 = height*3/5;
   TriangleX3 = width*10/16;
   TriangleY3 = TriangleY2;
-  LineX1 = height*2/4;
+  LineX1 = width*2/4;
   LineY1 = height*9/28;
-  LineX2 = height*3/4;
+  LineX2 = width*3/4;
   LineY2 = LineY1;
 }
