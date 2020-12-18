@@ -17,7 +17,7 @@
   //Button 1
   button1X = width * ;
   button1Y = height * ;
-  button1Width = width * ;
+  button1Width = width *  ;
   button1Height = height * ;
   
   //Button 2
@@ -44,6 +44,30 @@
   button5Width = width * ;
   button5Height = height * ; 
   
+  //button 6
+  button5X = width * ;
+  button5Y = height * ;
+  button5Width = width * ;
+  button5Height = height * ;
+  
+  //button 7
+  button5X = width * ;
+  button5Y = height * ;
+  button5Width = width * ;
+  button5Height = height * ;
+  
+  //button 8
+  button5X = width * ;
+  button5Y = height * ;
+  button5Width = width * ;
+  button5Height = height * ;
+  
+  //button 9
+  button5X = width * ;
+  button5Y = height * ;
+  button5Width = width * ;
+  button5Height = height * ;
+  
   //
   pt1X = pt5X = pt9X = pt13X = width * 0;
   pt2X = pt6X = pt10X = pt14X = width * 1/3;
@@ -59,7 +83,7 @@
   //
   ptDiameter = width* 1 / 30;
   rectWidth = width * 1 / 3;
-  rectHeight = height * 1 / 3;
+  rectHeight = height * 1 / 3; 
   
   // Quit Button
   quitButtonX = width* ;
@@ -83,5 +107,61 @@
   picY1 = rectYPic2;
   picWidth2 = rectWidthPic2 * picImageWidthRatio2; 
   picHeight2 = picWidth2 * picImageHeightRatio2; 
+  
+    //Image 3
+  picImageWidthRatio1 = ; 
+  picImageHeightRatio1 = ;
+  picX1 = rectXPic1;
+  picY1 = rectYPic1;
+  picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
+  picHeight1 = picWidth1 * picImageHeightRatio1; 
+  
+    //Image 4
+  picImageWidthRatio1 = ; 
+  picImageHeightRatio1 = ;
+  picX1 = rectXPic1;
+  picY1 = rectYPic1;
+  picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
+  picHeight1 = picWidth1 * picImageHeightRatio1; 
+  
+    //Image 5
+  picImageWidthRatio1 = ; 
+  picImageHeightRatio1 = ;
+  picX1 = rectXPic1;
+  picY1 = rectYPic1;
+  picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
+  picHeight1 = picWidth1 * picImageHeightRatio1; 
+  
+    //Image 6
+  picImageWidthRatio1 = ; 
+  picImageHeightRatio1 = ;
+  picX1 = rectXPic1;
+  picY1 = rectYPic1;
+  picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
+  picHeight1 = picWidth1 * picImageHeightRatio1; 
+  
+    //Image 7
+  picImageWidthRatio1 = ; 
+  picImageHeightRatio1 = ;
+  picX1 = rectXPic1;
+  picY1 = rectYPic1;
+  picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
+  picHeight1 = picWidth1 * picImageHeightRatio1; 
+  
+    //Image 8
+  picImageWidthRatio1 = ; 
+  picImageHeightRatio1 = ;
+  picX1 = rectXPic1;
+  picY1 = rectYPic1;
+  picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
+  picHeight1 = picWidth1 * picImageHeightRatio1; 
+  
+    //Image 9
+  picImageWidthRatio1 = ; 
+  picImageHeightRatio1 = ;
+  picX1 = rectXPic1;
+  picY1 = rectYPic1;
+  picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
+  picHeight1 = picWidth1 * picImageHeightRatio1; 
   
   }

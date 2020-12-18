@@ -1,5 +1,5 @@
 //Global variables
-color circleRed = #FF0303,  circleblue = #0D00FF;
+color CRed = #FF0303,  Cblue = #0D00FF;
 color black = #000000, white = #FFFFFF, blue = #0D00FF, red = #FF0000, purple =#A65EF0; 
 float button1X, button1Y, button1Width, button1Height;
 float button2X, button2Y, button2Width, button2Height;
@@ -11,8 +11,8 @@ float pt5X, pt5Y, pt6X, pt6Y, pt7X, pt7Y, pt8X, pt8Y;
 float pt9X, pt9Y, pt10X, pt10Y, pt11X, pt11Y, pt12X, pt12Y;
 float pt13X, pt13Y, pt14X, pt14Y, pt15X, pt15Y, pt16X, pt16Y;
 float ptDiameter, rectWidth, rectHeight;
-float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
-int reset;
+float ExitButtonX, ExitButtonY, ExitButtonWidth, ExitButtonHeight, buttonColour;
+int reset, resetWhite = #FFFFFF;
 
 //Background Sound
 import processing.sound.*;
@@ -79,18 +79,17 @@ void draw() {
   rect(button5X, button5Y, button5Width, button5Height);
   fill(white);
   
-  //Quit Button
+  //Exit Button
  
-  if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) { 
-    buttonColour = circleRed;
+  if ( mouseX>ExitButtonX && mouseX<ExitButtonX+ExitButtonWidth && mouseY>ExitButtonY && mouseY<ExitButtonY+ExitButtonHeight ) { 
+    buttonColour = CRed;
   } else { 
     buttonColour = resetWhite;
   } 
   fill(buttonColour);
-  rect(quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight);
-  textDraw();
+  rect(ExitButtonX, ExitButtonY, ExitButtonWidth, ExitButtonHeight);
   fill(resetWhite);
-  //
+  
 }
 
 
