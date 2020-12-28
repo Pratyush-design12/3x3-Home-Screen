@@ -1,18 +1,17 @@
-
 void population () {
   turnOn1=false;
   turnOn2=false;
   
  // Load a soundfile
-    soundfile = new SoundFile(this, "Sample.mp3");
+ //   soundfile = new SoundFile(this, "Sample.mp3");
     
  // These methods return useful infos about the file
-  println("SFSampleRate= " + soundfile.sampleRate() + " Hz");
-  println("SFSamples= " + soundfile.frames() + " samples");
-  println("SFDuration= " + soundfile.duration() + " seconds");
+//  println("SFSampleRate= " + soundfile.sampleRate() + " Hz");
+ // println("SFSamples= " + soundfile.frames() + " samples");
+ // println("SFDuration= " + soundfile.duration() + " seconds");
     
  // Play the file in a loop
-    soundfile.loop();
+   // \\soundfile.loop();
     
   //Populating Variable
   
@@ -20,28 +19,28 @@ void population () {
     ptX[i] = width*0;
     
   //Button 1 to create an image
-  button1X = width * ;
-  button1Y = height * ;
-  button1Width = width *  ;
-  button1Height = height * ;
+  button1X = width*1/3*1/3;
+  button1Y = height*1/3*1/3;
+  button1Width = width*1/9;
+  button1Height = height*1/9;
   
   //Button 2 to create an image
-  button2X = width * ;
-  button2Y = height * ;
-  button2Width = width * ;
-  button2Height = height * 9;
+  button2X = width*2/3*2/3;
+  button2Y = height*1/3*1/3;
+  button2Width = width*1/9;
+  button2Height = height*1/9;
   
   //Button 3 to create an image
-  button3X = width * ;
-  button3Y = height * ;
-  button3Width = width * ;
-  button3Height = height * ;
+  button3X = width*7/9;
+  button3Y = height*1/3*1/3;
+  button3Width = width*1/9;
+  button3Height = height*1/9;
   
   //button 4 to create image
-  button4X = width * ;
-  button4Y = height * ;
-  button4Width = width * ;
-  button4Height = height * ;
+  button4X = width*1/3*1/3;
+  button4Y = height*2/3*2/3;
+  button4Width = width*1/9;
+  button4Height = height*1/9;
   
   //---------------------------- 
   
@@ -76,10 +75,10 @@ void population () {
   buttonHeight[4] = height*3/15;
   
   //button 9
-  button5X = width * ;
-  button5Y = height * ;
-  button5Width = width * ;
-  button5Height = height * ;
+  button9X = width*7/9;
+  button9Y = height*7/9;
+  button9Width = width*1/9;
+  button9Height = height*1/9;
   
   //
   pt1X = pt5X = pt9X = pt13X = width * 0;
@@ -99,42 +98,10 @@ void population () {
   rectHeight = height * 1 / 3; 
   
   // Quit Button
-  quitButtonX = width* ;
-  quitButtonY = height* ;
-  quitButtonWidth = width* ;
-  quitButtonHeight = height* ;
+  quitButtonX = width*18.3/19;
+  quitButtonY = height*0.1/300;
+  quitButtonWidth = width*1/27;
+  quitButtonHeight = height*1/27;
   reset = 1;
-  
-  //Image 1
-  picImageWidthRatio1 = ; 
-  picImageHeightRatio1 = ;
-  picX1 = rectXPic1;
-  picY1 = rectYPic1;
-  picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
-  picHeight1 = picWidth1 * picImageHeightRatio1; 
-  
-  //Image 2
-  picImageWidthRatio2 = ; 
-  picImageHeightRatio2 = ;
-  picX2 = rectXPic2;
-  picY1 = rectYPic2;
-  picWidth2 = rectWidthPic2 * picImageWidthRatio2; 
-  picHeight2 = picWidth2 * picImageHeightRatio2; 
-  
-    //Image 3
-  picImageWidthRatio1 = ; 
-  picImageHeightRatio1 = ;
-  picX1 = rectXPic1;
-  picY1 = rectYPic1;
-  picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
-  picHeight1 = picWidth1 * picImageHeightRatio1; 
-  
-    //Image 4
-  picImageWidthRatio1 = ; 
-  picImageHeightRatio1 = ;
-  picX1 = rectXPic1;
-  picY1 = rectYPic1;
-  picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
-  picHeight1 = picWidth1 * picImageHeightRatio1; 
-  
   }
+ 

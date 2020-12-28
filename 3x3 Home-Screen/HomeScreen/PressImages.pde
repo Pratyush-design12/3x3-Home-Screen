@@ -1,9 +1,9 @@
-void images() {
-  pic1 = loadImage("download.jpg");
+/*void images() {
+  pic1 = loadImage("android-logo-200x200.jpg");
   //
-  pic2 = loadImage("download (1).jpg");
+  pic2 = loadImage("Download(1).jpg");
   //
-  pic3 = loadImage("download (2).jpg");
+  pic3 = loadImage("myreevericon-200x200-dgray-man-31002100-200-200.jpg");
   //
-  pic4 = loadImage("download (3).jpg");
-}
+  pic4 = loadImage("size200.jpg");
+*/
