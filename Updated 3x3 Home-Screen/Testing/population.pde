@@ -30,52 +30,52 @@ void population () {
   
   button1X = width *1/3*1/3;
   button1Y = height *1/3*1/3;
-  button1Width = width * 1/9;
-  button1Height = height * 1/9;
+  button1Width = width * 1/12;
+  button1Height = height * 1/12;
   //
   button2X = width * 2/3*2/3;
   button2Y = height * 1/3*1/3;
-  button2Width = width * 1/9;
-  button2Height = height * 1/9;
+  button2Width = width * 1/12;
+  button2Height = height * 1/12;
   //
   button3X = width * 7/9;
   button3Y = height * 1/3*1/3;
-  button3Width = width * 1/9;
-  button3Height = height * 1/9;
+  button3Width = width * 1/12;
+  button3Height = height * 1/12;
   //
   button4X = width*1/3*1/3;
   button4Y = height*2/3*2/3;
-  button4Width = width*1/9;
-  button4Height = height*1/9;
+  button4Width = width*1/12;
+  button4Height = height*1/12;
   //
   button5X = width*2/3*2/3;
   button5Y = height*2/3*2/3;
-  button5Width = width*1/9;
-  button5Height = height*1/9;
+  button5Width = width*1/12;
+  button5Height = height*1/12;
   //
   button6X = width*7/9;
   button6Y = height*2/3*2/3;
-  button6Width = width*1/9;
-  button6Height = height*1/9;
+  button6Width = width*1/12;
+  button6Height = height*1/12;
   //
   button7X = width*1/3*1/3;
   button7Y = height*7/9;
-  button7Width = width*1/9;
-  button7Height = height*1/9;
+  button7Width = width*1/12;
+  button7Height = height*1/12;
   //
   button8X = width*2/3*2/3;
   button8Y = height*7/9;
-  button8Width = width*1/9;
-  button8Height = height*1/9;
+  button8Width = width*1/12;
+  button8Height = height*1/12;
   //
   button9X = width*7/9;
   button9Y = height*7/9;
-  button9Width = width*1/9;
-  button9Height = height*1/9;
+  button9Width = width*1/12;
+  button9Height = height*1/12;
   
  // Imeages Location
   
-  rectXPic1 = width*2/3;
+  rectXPic1 = width*1/3;
   rectYPic1 = height*2/3;
   rectWidthPic1 = width*1/3; 
   rectHeightPic1 = height*1/3;
@@ -91,7 +91,7 @@ void population () {
   rectXPic2 = width*3/9;
   rectYPic2 = height*6/9;
   rectWidthPic2 = width*1/3; 
-  rectHeightPic2 = height*1/3;
+  rectHeightPic2 = height*2/3;
   picImageWidthRatio2 = 400/400; 
   picImageHeightRatio2 = 400/400;
   picX2 = rectXPic2;

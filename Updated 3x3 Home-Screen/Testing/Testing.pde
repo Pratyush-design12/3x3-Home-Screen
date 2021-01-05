@@ -320,65 +320,29 @@ if (mouseX>button1X && mouseX<button1X+button1Width && mouseY>button1Y && mouseY
 
 
  if (mouseX>button5X && mouseX<button5X+button5Width && mouseY>button5Y && mouseY<button5Y+button5Height )
-
-
+ 
+   
    if (turnOn5 == true) {
-
-
      turnOn1 = true;
-
-
      turnOn2 = true;
-
-
      turnOn3 = true;
-
-
      turnOn4 = true;
-
-
      turnOn5 = false;
-
-
      turnOn6 = true;
-
-
      turnOn7 = true;
-
-
      turnOn8 = true;
-
-
      turnOn9 = true;
-
 
    } else {
 
-
      turnOn1 = false;
-
-
      turnOn2 = false;
-
-
      turnOn3 = false;
-
-
      turnOn4 = false;
-
-
      turnOn5 = true;
-
-
      turnOn6 = false;
-
-
      turnOn7 = false;
-
-
      turnOn8 = false;
-
-
      turnOn9 = false;
      
     println("Btn 5 activated");
@@ -390,62 +354,26 @@ if (mouseX>button1X && mouseX<button1X+button1Width && mouseY>button1Y && mouseY
 
 
    if (turnOn6 == true) {
-
-
      turnOn1 = true;
-
-
      turnOn2 = true;
-
-
      turnOn3 = true;
-
-
      turnOn4 = true;
-
-
      turnOn5 = true;
-
-
      turnOn6 = false;
-
-
      turnOn7 = true;
-
-
      turnOn8 = true;
-
-
      turnOn9 = true;
-
 
    } else {
 
-
      turnOn1 = false;
-
-
      turnOn2 = false;
-
-
      turnOn3 = false;
-
-
      turnOn4 = false;
-
-
      turnOn5 = false;
-
-
      turnOn6 = true;
-
-
      turnOn7 = false;
-
-
      turnOn8 = false;
-
-
      turnOn9 = false;
      
          println("Btn 6 activated");
@@ -455,62 +383,26 @@ if (mouseX>button1X && mouseX<button1X+button1Width && mouseY>button1Y && mouseY
 
 
    if (turnOn7 == true) {
-
-
      turnOn1 = true;
-
-
      turnOn2 = true;
-
-
      turnOn3 = true;
-
-
      turnOn4 = true;
-
-
      turnOn5 = true;
-
-
      turnOn6 = true;
-
-
      turnOn7 = true;
-
-
      turnOn8 = false;
-
-
      turnOn9 = true;
-
 
    } else {
 
-
      turnOn1 = false;
-
-
      turnOn2 = false;
-
-
      turnOn3 = false;
-
-
      turnOn4 = false;
-
-
      turnOn5 = false;
-
-
      turnOn6 = false;
-
-
      turnOn7 = true;
-
-
      turnOn8 = false;
-
-
      turnOn9 = false;
      
          println("Btn 7 activated");
@@ -520,64 +412,27 @@ if (mouseX>button1X && mouseX<button1X+button1Width && mouseY>button1Y && mouseY
 
  if (mouseX>button8X && mouseX<button8X+button8Width && mouseY>button8Y && mouseY<button8Y+button8Height )
 
-
    if (turnOn8 == true) {
-
-
      turnOn1 = true;
-
-
      turnOn2 = true;
-
-
      turnOn3 = true;
-
-
      turnOn4 = true;
-
-
      turnOn5 = true;
-
-
      turnOn6 = true;
-
-
      turnOn7 = true;
-
-
      turnOn8 = false;
-
-
      turnOn9 = true;
-
 
    } else {
 
-
      turnOn1 = false;
-
-
      turnOn2 = false;
-
-
      turnOn3 = false;
-
-
      turnOn4 = false;
-
-
      turnOn5 = false;
-
-
      turnOn6 = false;
-
-
      turnOn7 = false;
-
-
      turnOn8 = true;
-
-
      turnOn9 = false;
      
          println("Btn 8 activated");
@@ -589,62 +444,26 @@ if (mouseX>button1X && mouseX<button1X+button1Width && mouseY>button1Y && mouseY
 
 
    if (turnOn9 == true) {
-
-
      turnOn1 = true;
-
-
      turnOn2 = true;
-
-
      turnOn3 = true;
-
-
      turnOn4 = true;
-
-
      turnOn5 = true;
-
-
      turnOn6 = true;
-
-
      turnOn7 = true;
-
-
      turnOn8 = true;
-
-
      turnOn9 = false;
-
 
    } else {
 
-
      turnOn1 = false;
-
-
      turnOn2 = false;
-
-
      turnOn3 = false;
-
-
      turnOn4 = false;
-
-
      turnOn5 = false;
-
-
      turnOn6 = false;
-
-
      turnOn7 = false;
-
-
      turnOn8 = false;
-
-
      turnOn9 = true;
 
     println("Btn 9 activated");
@@ -652,5 +471,3 @@ if (mouseX>button1X && mouseX<button1X+button1Width && mouseY>button1Y && mouseY
    }
 
 }
-
- 

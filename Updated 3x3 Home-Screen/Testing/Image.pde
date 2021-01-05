@@ -1,5 +1,5 @@
 void images() {
-  pic1 = loadImage("download.jpg");
+  pic1 = loadImage("download.png");
   //
   pic2 = loadImage("Download(1).jpg");
   //
